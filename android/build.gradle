@@ -4,7 +4,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.3.0'
+        classpath 'com.android.tools.build:gradle:3.0.0-alpha4'
     }
 }
 
@@ -40,5 +40,6 @@ android {
         }
     }
     dependencies {
+        compile 'org.tensorflow:tensorflow-android:1.2.0-preview'
     }
 }
